@@ -6,6 +6,9 @@
   "repository": "git@github.com:ehutchllew/utils.git",
   "author": "Evan Hutch <ehutch7@gmail.com>",
   "license": "GNU",
+  "publishConfig": {
+    "@ehutchllew:registery": "https://npm.pkg.github.com"
+  },
   "volta": {
     "node": "18.15.0",
     "yarn": "4.0.0-rc.42"
