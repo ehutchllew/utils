@@ -8,4 +8,5 @@ if [[ -d "dist" ]]; then
 fi
   printf "${GREEN}Creating 'dist' directory${COLOR_OFF}\n" 
   yarn compile 
+  yarn tsc
 
