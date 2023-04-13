@@ -9,5 +9,5 @@ fi
   printf "${GREEN}Creating 'dist' directory${COLOR_OFF}\n" 
   yarn compile 
   yarn tsc
-  cp ./package.json ./dist/
+  cp ./package.json ./LICENSE ./dist/
   cd dist
