@@ -28,7 +28,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - run: yarn install --immutable
       - run: yarn build
-      - run: cd dist/
-      - run: yarn publish
+      - run: cd dist/ && pwd
+      - run: pwd && yarn publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
