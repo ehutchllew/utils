@@ -11,5 +11,5 @@ fi
   yarn tsc
   cp ./package.json ./LICENSE ./dist/
   cd dist
-  print "Current Working Directory:"
-  echo pwd
+  printf "Current Working Directory:" && pwd
+  
