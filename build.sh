@@ -11,5 +11,3 @@ fi
   yarn tsc
   cp ./package.json ./LICENSE ./dist/
 
-return 0
-  
