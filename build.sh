@@ -10,6 +10,6 @@ fi
   yarn compile 
   yarn tsc
   cp ./package.json ./LICENSE ./dist/
-  cd dist
-  printf "Current Working Directory:" && pwd
+
+return 0
   
