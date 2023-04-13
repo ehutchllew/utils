@@ -8,10 +8,7 @@
     "build": "bash build.sh",
     "tc": "tsc --noEmit"
   },
-  "main": "dist/index.js",
-  "files": [
-    "dist/**/*"
-  ],
+  "main": "index.js",
   "repository": "git@github.com:ehutchllew/utils.git",
   "author": "Evan Hutch <ehutch7@gmail.com>",
   "license": "GNU",

@@ -10,4 +10,5 @@ fi
   yarn compile 
   yarn tsc
   cp ./package.json ./LICENSE ./dist/
+  touch ./dist/yarn.lock
 
