@@ -1,6 +1,6 @@
 {
   "name": "@ehutchllew/utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "various utility libraries to make life easier",
   "scripts": {
     "clean": "rm -r dist",
